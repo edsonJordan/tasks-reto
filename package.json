@@ -2,7 +2,7 @@
   "name": "Reto-Task",
   "version": "2.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/edsonJordan/tasks-reto",
+  "homepage": "https://github.com/edsonJordan/tasks-reto/build",
   "dependencies": {
     "@8base/error-codes": "^1.0.22",
     "@apollo/client": "^3.4.7",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "start": "react-scripts  start ",
     "build": "react-scripts  build",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
