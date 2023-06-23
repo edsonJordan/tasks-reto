@@ -29,6 +29,7 @@
     "typescript": "^5.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build ",
     "start": "react-scripts  start ",
     "build": "react-scripts  build",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
