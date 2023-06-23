@@ -1,5 +1,4 @@
 import { gql } from '@apollo/client';
-
 /**
  * Query the current users details.
  */

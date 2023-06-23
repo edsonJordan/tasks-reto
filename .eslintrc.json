@@ -1,15 +1,20 @@
 {
-  "parser": "babel-eslint",
+ /*  "parser": "babel-eslint",
   "plugins": [
-    "prettier"
+    // "prettier"
   ],
   "extends": [
-    "plugin:prettier/recommended",
-    "plugin:import/recommended",
+    // "plugin:prettier/recommended",
+    // "plugin:import/recommended",
     "react-app"
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "no-console": ["warn"],
     "no-trailing-spaces": "warn",
     "quote-props": ["error", "as-needed"]
@@ -20,5 +25,5 @@
         "paths": ["src"]
       }
     }
-  }
+  } */
 }
